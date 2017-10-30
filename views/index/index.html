@@ -1,0 +1,461 @@
+<div class="container-fluid img-blue">
+	<div class="col-md-5">
+		<div class="col-md-12 text-fundacion">
+		</div>
+		<div class="col-md-12 ninos-fundacion">
+			{{ Html.Img("templates/fundacion/fileimages/home/red_dress.svg", {"class":"fixed-height-1", "style":"height: 149px;"}) }}
+
+		</div>
+	</div>
+	<div class="col-md-5 text-contenido">
+			<p id="txtprop">
+			</p>
+			<div class="col-md-12 text-right social-icons socialnstrs">
+			<ul class="social-share">
+				<div class="sharesec1 col-md-6" style="padding:0px;">
+					<li class="col-md-5" style="display: inline;">
+						<a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a>
+					</li>
+					<li style="margin-right: 0px;display: inline;">
+						<div class="col-md-5 fb-share-button" 	 data-href="http://esperanzacontigo.org/" style="display: inline-flex;"	 data-layout="button_count"></div>
+					</li>
+				</div>
+				<div class="sharesec2 col-md-6" style="padding:0px;">
+					<li class="col-md-5" style="margin-right: 10px;display: inline;">
+						<div class="g-plus" data-action="share" data-annotation="bubble" data-href="http://esperanzacontigo.org/"></div>
+					</li>
+					<li class="col-md-5">
+						<script type="IN/Share" data-counter="right"></script>
+					</li>
+				</div>
+			</ul>
+		</div>
+	</div>
+	<div class="col-md-2 nave-fundacion">
+		{{ Html.Img("templates/fundacion/fileimages/home/happysun.svg", {"class":"fixed-height-1"}) }}
+
+	</div>
+
+</div>
+<div class="container-fluid img-video">
+	<div class="text-quehacemos col-md-12">
+	</div>
+	<div class="col-md-12" style="padding-top: 0%">
+
+
+		{{ Html.Img("templates/fundacion/fileimages/home/tablet.svg", {"class":"tablet"}) }}
+		{{ Html.Img("templates/fundacion/fileimages/home/nina.svg", {"class":"img-nina-home"}) }}
+
+			<iframe id="videouno" class="frame" src="">
+			</iframe>
+
+
+	</div>
+</div>
+
+
+
+
+
+
+<div class="container padding-2-top" >
+	<div class="col-md-1" id="div-sol">
+	{{ Html.Img("templates/fundacion/fileimages/home/manzana.svg", {"class":" fixed-height-1 solhome"}) }}
+	</div>
+	<div class = "col-md-3 convotxt">
+		<div id="titulo-conv"></div>
+		<p id="txtconvo"></p>
+	</div>
+	<div class="col-md-8" style="display: flex;">
+		<div class = "col-xs-1" style="align-items: stretch;">
+			<a class="left carousel-contr" href="#carousel-example-generic" role="button" data-slide="prev">
+		    	<span class=" fa fa-caret-left" id = "cursor-slider-home-left"  aria-hidden="true"></span>
+		    	<span class="sr-only">Previous</span>
+		  	</a>
+		</div>
+		<div class="col-xs-10">
+			<div class="col-md-12 no-padding">
+
+				<div id="carousel-example-generic"  class="carousel slide" data-ride="carousel" data-interval="false">
+					<div class="carousel-inner" id="carrousel-items" role="listbox">
+			    		<div class="item active">
+				      		{{ Html.Img("", {"class":"img-carr-home", "id":"i1"}) }}
+			    		</div>
+				    	<div class="item">
+				      		{{ Html.Img("", {"class":"img-carr-home", "id":"i2"}) }}
+				    	</div>
+				    	<div class="item">
+				      		{{ Html.Img("", {"class":"img-carr-home", "id":"i3"}) }}
+				    	</div>
+
+			  		</div>
+			  	</div>
+			</div>
+			<div class="col-md-12 no-padding">
+				<ol class="carousel-indicators custom-indicators">
+				    <li data-target="#carousel-example-generic" data-slide-to="0" class="indicator-crs active"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="1" class="indicator-crs"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="2" class="indicator-crs"></li>
+			  	</ol>
+			</div>
+		</div>
+		<div class = "col-xs-1" style="align-items: stretch;">
+			<a class="right carousel-contr" href="#carousel-example-generic" role="button" data-slide="next">
+		    	<span class="fa fa-caret-right" id = "cursor-slider-home-right" aria-hidden="true"></span>
+		    	<span class="sr-only">Next</span>
+		  	</a>
+		</div>
+	</div>
+</div>
+<div class="container vertical-line-crs">
+</div>
+<div class = "container parent-footer-sld">
+	<div class="col-md-12 sld-cont sld-active">
+		<div class="col-md-6 slider-home-title">
+			<div id="slt1" class="col-md-12 slider-title">
+			</div>
+			<div class="col-md-12">
+			<a id="asld1" href="">
+				<input type="submit" class="btn btn-send btn-lg btn-azul btn-datos button-sld" value="Participa" />
+			</a>
+			</div>
+		</div>
+		<div id="sldtxt1" class="col-md-6 text-slider"></div>
+	</div>
+	<div class="col-md-12 sld-cont sld-item">
+		<div class="col-md-6 slider-home-title">
+			<div id="slt2" class="col-md-12 slider-title"></div>
+			<div class="col-md-12">
+				<a id="asld2" href="">
+					<input type="submit" class="btn btn-send btn-lg btn-azul btn-datos button-sld" value="Participa" />
+				</a>
+			</div>
+		</div>
+		<div id="sldtxt2" class="col-md-6 text-slider"></div>
+	</div>
+	<div class="col-md-12 sld-cont sld-item">
+		<div class="col-md-6 slider-home-title">
+			<div id="slt3" class="col-md-12 slider-title"></div>
+			<div class="col-md-12">
+				<a id="asld3" href="">
+					<input type="submit" class="btn btn-send btn-lg btn-azul btn-datos button-sld" value="Participa" />
+				</a>
+			</div>
+		</div>
+		<div id="sldtxt3" class="col-md-6 text-slider"></div>
+	</div>
+</div>
+
+
+
+
+
+
+
+<div class="container-fluid purple-back">
+	<div class="container">
+		<div class="col-md-7 sec3-home">
+			{{ Html.Img("", {"class":"imgbenef"}) }}
+		</div>
+		<div class="col-md-3 text-fundacion2">
+
+		</div>
+		<div class="col-md-3 text-contenido2">
+
+		</div>
+	</div>
+</div>
+<div class="container-fluid" id= "home-resultadosContainer">
+	<div class="container" id="home-resultadosWrapper">
+		<div class="col-md-2" id="text-resultados">
+		Resultados
+		</div>
+		<div class="col-md-8">
+			<div class="col-md-3">
+				<div class="col-md-12 ajuste-relleno">
+					<div class="circulores" >
+						<div id="g1" class="valor">
+						0
+						</div>
+					</div>
+				</div>
+
+				<div class="footer-circle">
+					Voluntarios
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="col-md-12 ajuste-relleno">
+							<div class="circulores"  style="background:#F46819;">
+						<div id="g2" class="valor">
+							0
+						</div>
+					</div>
+				</div>
+
+				<div class="footer-circle">
+					Horas Mensuales
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="col-md-12 ajuste-relleno">
+					<div class="circulores" style="background:#6232FF;">
+						<div id="g3" class="valor">
+							0
+						</div>
+					</div>
+				</div>
+
+				<div class="footer-circle">
+					Comisiones
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="col-md-12 ajuste-relleno">
+							<div class="circulores" style="background:#FFC000;">
+						<div id="g4" class="valor">
+							0
+						</div>
+					</div>
+				</div>
+
+				<div class="footer-circle">
+					Niños Beneficiados
+				</div>
+			</div>
+			</div>
+			<div class="col-md-2">
+				<div class="boton" id="resultados-btn">
+					<!--<input type="submit" class="btn btn-send btn-lg btn-azul btn-datos" value="Conócelos" />-->
+				</div>
+			</div>
+	</div>
+</div>
+<div class="container-fluid img-fundacion">
+	<div class="container">
+		<div class="col-md-6">
+			<div class="column">
+				<div class="text-colaborar">
+
+				</div>
+				<div class="text-contenido-colaborar">
+
+				</div>
+				<div class="row">
+					<div class="col-md-3">
+						<a href="donativos" style="display:inherit;">
+						<div class="circulo circuloindex circulo-dona-liga"><img src="templates/fundacion/fileimages/sponsor.svg" class="imagen-dinero" style="margin-top:-23%"></img></div>
+						<div class="text-dona-tiempo">Conviértete en Sponsor</div>
+							</a>
+					</div>
+					<div class="col-md-3 cdnss">
+						<a href="donativos#dinero" id="btnDinero" style="display:inherit;">
+						<div class="circulo circuloindex circulo-dona-dinero "><img src="templates/fundacion/fileimages/dineross.svg" class="imagen-dinero"></img></div>
+						<div class="text-dona-dinero">Dona en efectivo</div>
+					</a>
+					</div>
+					<div class="col-md-3">
+						<a href="donativos#especie" id="btnEspecie" style="display:inherit;">
+							<div class="circulo circuloindex circulo-dona-especie"><img src="templates/fundacion/fileimages/gift.svg" class="imagen-especie"></img></div>
+							<div class="text-dona-especie">Dona en especie</div>
+						</a>
+					</div>
+					<div class="col-md-3">
+						<a href="donativos#tiempo" id="btnTiempo" style="display:inherit;">
+						<div class="circulo circuloindex circulo-dona-tiempo"><img src="templates/fundacion/fileimages/involucrate_41Recurso 11.svg" class="imagen-tiempo"></img></div>
+						<div class="text-dona-tiempo">Dona tu tiempo</div>
+							</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			{{ Html.Img("templates/fundacion/fileimages/home/chavos.png", {"class":"img-colabora"}) }}
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid premios-font" id="premios-container-home">
+	<div class="col-md-4 premios-left-font">
+		<div class ="font-premios-title">
+
+		</div>
+		<div class="txtdonador">
+
+		</div>
+	</div>
+	<div class="col-md-2">
+		<div>
+			{{ Html.Img("templates/fundacion/fileimages/home/Recurso19.svg", {"class":"img-premios-left"}) }}
+		</div>
+		<div class="premios-left-winner">
+			{{ Html.Img("", {"class":"img-winner", "id":"imgdon"}) }}
+		</div>
+	</div>
+	<div class="col-md-2">
+		<div>
+			{{ Html.Img("templates/fundacion/fileimages/home/Recurso19.svg", {"class":"img-premios-left img-premios-r"}) }}
+		</div>
+		<div class="premios-left-winner">
+			{{ Html.Img("", {"class":"img-winner", "id":"imgvolu"}) }}
+		</div>
+	</div>
+	<div class="col-md-4 premios-right-font">
+		<div id="titvolunt" class ="font-premios-title">
+
+		</div>
+		<div class="txtvolunt">
+
+		</div>
+
+	</div>
+
+</div>
+
+
+
+
+<div class="container cst-padding padding-4-hz" >
+	<div class = "col-md-12" style="padding-bottom: 2%;margin-top: -97px;">
+		<div class="col-md-8 font-3">
+
+		</div>
+		<div class="col-md-3" id="hm-nw-bc">
+			{{ Html.Img("templates/fundacion/fileimages/home/happyworld.svg", {"class":"happiesworld"}) }}
+		</div>
+	</div>
+	<div 	id="bloghome">
+		<!--
+	<div class="col-md-4 no-padding ultnot">
+		<div class="col-md-12 publicaciimg">
+			<a href="blog/articulo">
+			{{ Html.Img("templates/fundacion/fileimages/7587e2319dfdc5b5f31ef4ffbac2862a_L.jpg", {"class":" hm-ntc-img"}) }}
+		</a>
+		</div>
+		<a href="blog/articulo">
+	<div class="col-md-12  font-2">
+
+	VOLUNTARIOS DE FUNDACIÓN ESPERANZA CONTIGO, A.C. CELEBRAN PRIMER SESIÓN DE TRABAJO
+
+	</div>
+	</a>
+		<div class="col-md-12 font-1">
+
+
+    La institución presentó ambicioso plan de trabajo en el que pretenden involucrar a cientos de tijuanenses para mejorar la situación de niños en situación de abandono.
+
+Con gran entusiasmo, Fundación Esperanza Contigo, A.C. celebró su Primer Sesión de Trabajo con aquellos voluntarios tijuanenses que han tenido la iniciativa de sumarse a esta noble causa, cuya misión es trabajar bajo un modelo humano y profesional, dedicado al cuidado y desarrollo integral de niños y jóvenes en situación de abandono, para contribuir a la formación de ciudadanos comprometidos con nuestra comunidad.
+
+		</div>
+	</div>
+	<div class="col-md-4 no-padding ultnot">
+		<div class="col-md-12 publicaciimg">
+				<a href="blog/articulo">
+			{{ Html.Img("templates/fundacion/fileimages/news_thumb_86355_630.jpg", {"class":" hm-ntc-img"}) }}
+		</a>
+		</div>
+		<a href="blog/articulo">
+	<div class="col-md-12  font-2">
+
+		Extranjeros son los que más apoyan casas hogar en Tijuana
+	</div>
+	</a>
+		<div class="col-md-12 font-1">
+La escasa cultura de altruismo en México, sumado a la situación económica prevaleciente en la comunidad, ha provocado una baja importante en los apoyos que otorga el gobierno hacia las casas hogar de Tijuana, así como de las propias asociaciones civiles, quienes dependen en su mayoría, de apoyos directos de la población.
+		</div>
+	</div>
+	<div class="col-md-4 no-padding ultnot">
+		<div class="col-md-12 publicaciimg">
+				<a href="blog/articulo">
+			{{ Html.Img("templates/fundacion/fileimages/20170303_113050.jpg", {"class":" hm-ntc-img"}) }}
+		</a>
+		</div>
+			<a href="blog/articulo">
+		<div class="col-md-12  font-2">
+
+		BC en segundo lugar en México por número de niños en situación de orfandad
+		</div>
+		</a>
+		<div class="col-md-12 font-1">
+
+	La Fundación Esperanza Contigo A.C., ofreció un informe y análisis de un estudio realizado en 21 Casas Hogar en Tijuana en el cual se revisaron las condiciones en varios aspectos de cómo se encuentran estos precisamente. La Fundación Esperanza Contigo busca proteger la identidad y el propósito de vida de los niños y jóvenes que carecen de cuidado parental, con el fin de contribuir a mas formación de ciudadanos comprometidos en su comunidad.
+		</div>
+	</div> -->
+	</div>
+	<div class="col-md-12  blogmas">
+
+		<a href="blog" style="color: #9B347B;">	<input type="submit" class="btn btn-send btn-lg btn-azul btn-datos" value="Conoce más" style="background-color: #9B347B;border-color: #9B347B;" /></a>
+
+			</div>
+</div>
+
+<div class="container-fluid img-contactanos">
+	<div class="container cst-padding">
+{{ Form.create({control:"usuarios",function:"contacto"},"frmPrin") }}
+		<div class="row padding-4-hz">
+			<div class="col-md-4 text-contacto">
+
+			</div>
+			<div class="col-md-5 text-contacto-descripcion">
+
+			</div>
+			<div class="col-md-3" id="hm-mail-hd">
+				{{ Html.Img("templates/fundacion/fileimages/abeja.svg", {"class":"correo-abeja"}) }}
+			</div>
+		</div>
+		<div class="row">
+
+
+			<div class="col-md-6">
+
+				<div class="form-group">
+					<div class="col-sm-14">
+						{{ Form.Input("nombre",{"class":"form-control input-form","placeholder":" Nombre","required":"true"}) }}
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-14">
+							{{ Form.Input("email",{"class":"form-control input-form","placeholder":" Email","required":"true"}) }}
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-14">
+					{{ Form.Input("telefono",{"class":"form-control input-form","placeholder":" Teléfono","required":"true"}) }}
+
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-14">
+
+						{{ Form.Input("asunto",{"class":"form-control input-form","placeholder":" Asunto","required":"true"}) }}
+
+					</div>
+				</div>
+
+			</div>
+			<div class="col-md-6">
+				<div class="col-sm-12 txtareafrm">
+					{{ Form.TextArea("mensaje",  {"placeholder":"Mensaje", class: "text-area-formulario", value: datos.contenido, required:true}) }}
+
+
+				</div>
+			</div>
+
+		</div>
+		<div class="row" id="hm-mail-ft">
+			<div class="col-md-6 obligatorio">
+				<p><strong>*Todos los campos son obligatorios.</strong></p>
+				<p><strong>*Al enviar acepto todas las políticas de privacidad.</strong></p>
+			</div>
+			<div class="col-md-6">
+				<div class="boton" id = "hm-mail-btn">
+
+								{{Form.Submit("Enviar solicitud de información",{"class":"btn btn-send btn-lg btn-azul btn-datos", "id":"registrar"})}}
+				</div>
+			</div>
+		</div>
+			{{ Form.End() }}
+	</div>
+</div>
+
+<script src="templates/fundacion/js/home.js" type="text/javascript"></script>

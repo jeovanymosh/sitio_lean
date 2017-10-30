@@ -1,0 +1,22 @@
+<div class="col-md-12 a-mapa" >
+	<div class="container1">
+		<div class="col-md-12 titulo">
+		 Recuperación de contraseña
+		</div>
+		<div class="modal-body">
+			<p>Recuperación de contraseña</p>
+			<div class="col-md-12 campos">
+				{{ Form.create({control:"registros",function:"reset"},"frmRecovery2") }}
+				<label class="label-datos">RFC</label></br>
+				{{ Form.Input("rfc",{"class":"form-acceso2","placeholder":"RFC","required":"true"}) }} </br>
+				<label class="label-datos">Contraseña nueva</label></br>
+				{{ Form.Input("password",{"class":"form-acceso2","placeholder":"Contraseña nueva","required":"true" ,"type":"password" }) }}</br>
+					{{Form.Submit("Enviar",{"class":"btn btn-azul btn-datos"})}}
+
+				{{ Form.End()}}
+			</div>
+
+
+		</div>
+	</div>
+</div>
