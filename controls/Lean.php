@@ -3,7 +3,7 @@ namespace Control;
 use Core\Control;
 use Core\Config;
 
-class Lines extends Control{
+class Lean extends Control{
     function Before($funcion){
         $this->Send("ERP_CLIENTE", Config::Reader("Cliente"));
 		$this->Send("CLIENTE_LOGO", "logo_".Config::Reader("Cliente").".png");

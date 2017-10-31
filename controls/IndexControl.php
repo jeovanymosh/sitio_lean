@@ -1,9 +1,9 @@
 <?php
 namespace Control;
-use Control\Fundacion;
+use Control\Lean;
 use Core\Config;
 
-class IndexControl extends Fundacion{
+class IndexControl extends Lean{
 	function index(){
 		$this->Send("title",_t("admiNet"));
     //echo("holi!!!!!!");
