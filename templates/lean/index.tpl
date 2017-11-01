@@ -20,6 +20,38 @@
   {lang: 'es-419'}
 </script>
 <body>
+<div class="mobile-menu-wrapper">
+  <div class="mobile-menu-popup"></div>
+  <nav id="off-canvas-menu">
+    <a id="cboxClose">
+      Close
+    </a>
+    <ul class="expander-list">
+      <li>
+        <span class="name">
+          <span class="expander">+</span>
+          <a href="/">
+            <span class="act-underline">
+              LAYOUT
+            </span>
+          </a>
+        </span>
+        <ul class="dropdown-menu megamenu image-links-layout" role="menu" style="display: none;">
+          <style></style>
+          <li class="col-one-fourth">
+            <span class="image-link">
+              <a href="http://yourstore-default.myshopify.com/?preview_theme_id=">
+                <span class="figure">
+                  
+                </span>
+              </a>
+            </span>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+</div>
 <div class="header-wrapper">
   <header id="header" class="header-layout-03">
     <div class="container">
@@ -33,13 +65,41 @@
                   <span class="caret"></span>
                 </a>
                 <ul class="dropdown-menu dropdown-menu--xs-full">
-                  <li class="c"></li>
+                  <li class="currency__item active" data-currency="USD">
+                    <a style="cursor: pointer">USD - US Dollar</a>
+                  </li>
+                  <li class="currency__item" data-currency="EUR">
+                    <a style="cursor: pointer">EUR - Euro</a>
+                  </li>
+                  <li class="currency__item" data-currency="GBP">
+                    <a style="cursor: pointer">GBP - British Pound Sterling</a>
+                  </li>
+                  <li class="dropdown-menu__close">
+                    <a href="#">
+                      <span class="fa fa-close"></span>
+                      Close
+                    </a>
+                  </li>
                 </ul>
             </div>
           </div>
         </div>
+        <div class="col-sm-9 col-md-9 col-lg-9 col-xl-9 text-right">
+          <div class="col-sm-9 col-md-9 col-lg-9 col-xl-9 text-right">
+            <a class="search__open" href="#">
+              <span class="fa fa-search"></span>
+            </a>
+            <div class="search-dropdown">
+              <form action="/search" method="get" style="position: relative;">
+                <div class="input-outer">
+                  <input name="type" value="product" type="hidden">
+                  <input class="search_field" name="q" value="" maxlength="128" placeholder="SEARCH:" style="" autocomplete="off" type="text">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
-      
     </div>
   </header>
 </div>
