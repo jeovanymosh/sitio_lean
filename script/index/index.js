@@ -31,3 +31,89 @@ function(c) {
     }
   }
 }
+
+function() {
+  buttons.removeClass('active');
+  var cur = jQuery(this).attr('data-currency');
+  jQuery(".currency li[data-currency='" + cur + "']").addClass('active');
+
+  var newCurrency = jQuery(this).attr('data-currency');
+  if (newCurrency == Currency.currentCurrency) {
+    Currency.convertAll(shopCurrency, newCurrency);
+  } else {
+    Currency.convertAll(Currency.currentCurrency, newCurrency);
+  }
+
+  jQuery(".current-currency").text(cur);
+}
+
+function(t) {
+  return "undefined" != typeof re && re.event.triggered !== t.type ? re.event.dispatch.apply(e, arguments) : void 0
+}
+
+function() {
+  $j(".mobile-menu-wrapper").removeClass("open"), $j("body").removeClass("no-scroll")
+}
+
+function(e) {
+  e.preventDefault;
+  var t = 300,
+    i = $j(this).parent(),
+    o = $j(this).next("ul");
+  i.hasClass("open") ? (i.removeClass("open"), o.slideUp(t)) : (i.addClass("open"), o.slideDown(t))
+}
+
+function() {
+  "block" == o.css("display") ? o.slideUp("slow") : o.slideDown("slow"), e(this).html(i ? "&minus;" : "+"), i = !i
+}
+
+function(e) {
+  e.preventDefault(), $j(this).parent(".search").addClass("open"), $j(this).next(".search-dropdown").addClass("open"), $j("header .badge").addClass("badge--hidden")
+}
+
+function() {
+  // What's the search term?
+  var term = $(this).val();
+  // What's the search form?
+  var form = $(this).closest('form');
+  // What's the search URL?
+  var searchURL = '/search?type=product&q=' + term;
+  // What's the search results list?
+  var resultsList = form.find('.search-results');
+  // If that's a new term and it contains at least 3 characters.
+  if (term.length > 3 && term != $(this).attr('data-old-term')) {
+    // Saving old query.
+    $(this).attr('data-old-term', term);
+    // Killing any Ajax request that's currently being processed.
+    if (currentAjaxRequest != null) currentAjaxRequest.abort();
+    // Pulling results.
+    currentAjaxRequest = $.getJSON(searchURL + '&view=json', function(data) {
+      // Reset results.
+      resultsList.empty();
+      // If we have no results.
+      if (data.results_count == 0) {
+        // resultsList.html('<li><span class="title">No results.</span></li>');
+        // resultsList.fadeIn(200);
+        resultsList.hide();
+      } else {
+        // If we have results.
+        $.each(data.results, function(index, item) {
+          var link = $('<a></a>').attr('href', item.url);
+          link.append('<span class="thumbnail"><img src="' + item.thumbnail + '" /></span>');
+          link.append('<span class="title">' + item.title + '</span>');
+          link.wrap('<li></li>');
+          resultsList.append(link.parent());
+        });
+        // The Ajax request will return at the most 10 results.
+        // If there are more than 10, let's link to the search results page.
+        if (data.results_count > 10) {
+          resultsList.append('<li><span class="title"><a href="' + searchURL + '">See all results (' + data.results_count + ')</a></span></li>');
+        }
+        resultsList.fadeIn(200);
+      }
+      $('.search-results').css({
+        'width': input.innerWidth() + 2
+      });
+    });
+  }
+}
