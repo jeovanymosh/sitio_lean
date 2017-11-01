@@ -89,38 +89,6 @@
       
 
       </li>
-
-      
-
-      
-        
-      
-        
-        
-        
-        
-  
-    
-      
-      
-          
-          
-        
-          
-                
-                    
-                
-                    
-                        
-                        
-                        
-                        
-                            
-                            
-        
-      
-      
-    
       
       <li>
         <span class="name">
@@ -155,41 +123,6 @@
       </li>
 
       
-
-      
-        
-      
-        
-        
-        
-        
-  
-    
-      
-      
-          
-          
-        
-          
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                        
-                        
-                        
-                        
-                            
-                            
-        
-      
-      
-    
-      
       <li>
         <span class="name">
           
@@ -202,12 +135,6 @@
           </span>
           </a>
         </span>
-        
-    
-        
-        
-        
-        
           <ul class="dropdown-menu megamenu image-links-layout" role="menu" style="display: none;">
             <li class="col-one-third"><span class="image-link"> <a href="https://yourstore-car.myshopify.com/pages/product-page-small"> <span class="figure"><img class="img-responsive" src="https://cdn.shopify.com/s/files/1/1266/3353/files/product-menu-img-1.png?17986876605202795954" alt=""></span> <span class="figcaption text-uppercase">image size - small</span> </a> </span></li>
 <li class="col-one-third"><span class="image-link"> <a href="https://yourstore-car.myshopify.com/products/paul-smith-blazer"> <span class="figure"><img class="img-responsive" src="https://cdn.shopify.com/s/files/1/1266/3353/files/product-menu-img-2.png?17986876605202795954" alt=""></span> <span class="figcaption text-uppercase">image size - medium</span> </a> </span></li>
@@ -217,39 +144,6 @@
 
       </li>
 
-      
-
-      
-        
-      
-        
-        
-        
-        
-  
-    
-      
-      
-          
-          
-        
-          
-                
-                    
-                
-                    
-                
-                    
-                        
-                        
-                        
-                        
-                            
-                            
-        
-      
-      
-    
       
       <li>
         <span class="name">
@@ -673,7 +567,7 @@
       
       <li data-currency="GBP" class="currency__item"><a style="cursor: pointer">GBP - British Pound Sterling</a></li>
     
-    <li class="dropdown-menu__close"><a href="#"><span class="icon icon-close"></span>close</a></li>
+    <li class="dropdown-menu__close"><a href="#"><span class="fa fa-close"></span>close</a></li>
   </ul>
 </div>
 <!-- currency end -->
@@ -705,18 +599,12 @@
       <span class="icon icon-person "></span>
     </a>
     <ul class="dropdown-menu dropdown-menu--xs-full">
-      <li><a href="/account"><span class="icon icon-person"></span>Account</a></li>
-      <li><a href="/pages/wishlist"><span class="icon icon-favorite"></span>Wishlist</a></li>
-      
-      <li><a href="/checkout"><span class="icon icon-done_all"></span>Checkout</a></li>
-
-      
-      <li><a href="/account/login"><span class="icon icon-lock"></span>Sign In</a></li>
-      <li><a href="/account/register"><span class="icon icon-person_add"></span>Register</a></li>
-      
-      
-
-      <li class="dropdown-menu__close"><a href="#"><span class="icon icon-close"></span>close</a></li>
+      <li><a href="/account"><span class="fa fa-user"></span>Account</a></li>
+      <li><a href="/pages/wishlist"><span class="fa fa-heart"></span>Wishlist</a></li>
+      <li><a href="/checkout"><span class="fa fa-check"></span>Checkout</a></li>
+      <li><a href="/account/login"><span class="fa fa-lock"></span>Sign In</a></li>
+      <li><a href="/account/register"><span class="fa fa-plus"></span>Register</a></li>
+      <li class="dropdown-menu__close"><a href="#"><span class="fa fa-close"></span>close</a></li>
     </ul>
   </div>
 </div>
@@ -724,18 +612,14 @@
         <!-- account menu start -->
         <div class="account-row-list pull-right mobile-menu-off">
           <ul>
-            <li><a href="/account"><span class="icon icon-person"></span>Account</a></li>
-            <li><a href="/pages/wishlist"><span class="icon icon-favorite_border"></span>Wishlist</a></li>
-            <li><a href="/checkout"><span class="icon icon-done_all"></span>Checkout</a></li>
-            
-            <li><a href="/account/login"><span class="icon icon-lock"></span>Sign In</a></li>
-            <li><a href="/account/register"><span class="icon icon-person_add"></span>Register</a></li>
-            
-            
+            <li><a href="/account"><span class="fa fa-user"></span>Account</a></li>
+            <li><a href="/pages/wishlist"><span class="fa fa-heart"></span>Wishlist</a></li>
+            <li><a href="/checkout"><span class="fa fa-check"></span>Checkout</a></li>
+            <li><a href="/account/login"><span class="fa fa-lock"></span>Sign In</a></li>
+            <li><a href="/account/register"><span class="fa fa-plus"></span>Register</a></li>
           </ul>
         </div>
         <!-- /account menu end -->
-
       </div>
     </div>
     <hr class="mobile-menu-off">
@@ -770,7 +654,7 @@
         <div class="cart__bottom">
           <a href="/checkout" class="btn btn--ys btn-checkout">Checkout <span class="icon icon--flippedX icon-reply"></span></a>
           <div class="cart__total">Cart subtotal: <span class="shopping-cart__total"> <span class="money" data-currency-usd="$0.00">$0.00</span></span></div>
-          <a href="/cart" class="btn btn--ys"><span class="icon icon-shopping_basket"></span>View Cart</a>
+          <a href="/cart" class="btn btn--ys"><span class="fa fa-shopping-bag"></span>View Cart</a>
         </div>
       </div>
     </div>
@@ -1755,27 +1639,15 @@ Mon-Fri: 8:30am-7:30pm;  Sat-Sun: 9:30am-4:30pm</div>
           
           Buy Theme!</span>
         </a>
-        
-    
-          
-      
-      
-      
-        
-        
-        
-
       </li>
-      
     </ul>
-    
   </div>
 </nav>
         </div>
         <div class="pull-right col-sm-2 col-md-2 col-lg-2 col-xl-1 text-right">
           <!-- search start -->
 <div class="search link-inline ">
-  <a href="#" class="search__open"><span class="icon icon-search"></span></a>
+  <a href="#" class="search__open"><span class="fa fa-search"></span></a>
   <div class="search-dropdown">
     <form action="/search" method="get" style="position: relative;">
       <div class="input-outer">
