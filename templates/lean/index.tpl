@@ -5,9 +5,9 @@
             {{ Html.Meta("utf8") }}
             {{Html.LinkCss(["bootstrap","font-awesome.min","general","general2","general3","favfa","font-awesome.min","fonts","luna", "stylefont"])}}
     {% endblock %}
-		<meta name='description' content='' />
+		<meta name='description' content='Lean Outlet™ es una marca registrada propiedad de Lean Outlet, S. de R.L. de C.V.' />
 
-		<title>Lean Outlet</title>
+		<title>Lean Outlet™</title>
 
 </head>
 <script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
@@ -783,7 +783,7 @@
   <!-- footer-copyright -->
   <div class="container footer-copyright">
     <div class="row"><div class="col-sm-6">
-  <a href="/"><span>Your</span>Store</a> © 2017 . All Rights Reserved. 
+  <a href="/"><span>Lean Outlet™ es una marca registrada propiedad de Lean Outlet, S. de R.L. de C.V.</span></a><br> Todos los Derechos Reservados. 
 </div>
 <div class="pull-right hidden-xs hidden-sm hidden-md">
   <ul class="list-icon-small">
