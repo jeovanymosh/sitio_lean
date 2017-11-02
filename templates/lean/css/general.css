@@ -64,7 +64,7 @@ body a:focus{
 .nav>li{
 	padding-right: 8px;
 	padding-left: 8px;
-	margin-top: 33px;
+	margin-top: 26px;
 }
 .nav>li.activo{
 	margin-top: 0px;
