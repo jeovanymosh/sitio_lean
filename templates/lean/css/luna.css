@@ -3233,7 +3233,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #282828;
+  
 }
 .nav > li.disabled > a {
   color: #999999;
@@ -3410,7 +3410,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar {
   position: relative;
-  min-height: 50px;
+  min-height: 0px;
   /*margin-bottom: 27px;*/
 }
 @media (min-width: 768px) {
@@ -3566,8 +3566,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin: 5.75px -15px;
 }
 .navbar-nav > li > a {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   line-height: 27px;
 }
 @media (max-width: 767px) {
@@ -3601,8 +3601,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     float: left;
   }
   .navbar-nav > li > a {
-    padding-top: 11.5px;
-    padding-bottom: 11.5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 }
 .navbar-form {
@@ -3863,7 +3863,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
   color: #fff;
-  background-color: #080808;
+  
 }
 .navbar-inverse .navbar-nav > .disabled > a,
 .navbar-inverse .navbar-nav > .disabled > a:hover,
@@ -24896,7 +24896,7 @@ input {
   background-color: #040404;
 }
 #header {
-  background: #141414;
+  background: #212121;
 }
 #header input{
   background: none;
