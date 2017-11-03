@@ -658,7 +658,7 @@
       
       <li><a href="/pages/delivery-page">Políticas de Privacidad</a></li>
       
-      <li><a href="/pages/contact">Contact Us</a></li>
+      <li><a href="/pages/contact">Contáctanos</a></li>
       
     </ul>
   </div>
@@ -670,15 +670,15 @@
   <div class="v-links-list mobile-collapse__content">
     <ul>
       
-      <li><a href="https://yourstore-default.myshopify.com/account/login">Sign In</a></li>
+      <li><a href="https://yourstore-default.myshopify.com/account/login">Inicia Sesión</a></li>
       
-      <li><a href="https://yourstore-default.myshopify.com/cart">View Cart</a></li>
+      <li><a href="https://yourstore-default.myshopify.com/cart">Ver carrito</a></li>
       
-      <li><a href="https://yourstore-default.myshopify.com/pages/wishlist">My Wishlist</a></li>
+      <!--<li><a href="https://yourstore-default.myshopify.com/pages/wishlist">My Wishlist</a></li>-->
       
-      <li><a href="/pages/support-24">Track My Order</a></li>
+      <!--<li><a href="/pages/support-24">Track My Order</a></li>-->
       
-      <li><a href="/pages/undefined">Help</a></li>
+      <li><a href="/pages/undefined">Ayuda</a></li>
       
     </ul>
   </div>
@@ -692,7 +692,7 @@
         <div class="subscribe-box">
           <div class="mobile-collapse">
             
-            <h4 class="text-left  title-under  mobile-collapse__title">NEWSLETTER SIGNUP</h4>
+            <h4 class="text-left  title-under  mobile-collapse__title">Incribirse a NEWSLETTER</h4>
             <div class="mobile-collapse__content">
               <form action="//myshopify.us11.list-manage.com/subscribe/post?u=0b829b8aff26aaaaa5da602c6&amp;id=293978d1bd" method="post" name="mc-embedded-subscribe-form" target="_blank" class="form-inline">
                 <input name="EMAIL" class="subscribe-form__input" type="text">
