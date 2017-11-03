@@ -515,11 +515,11 @@
               <span class="icon icon-person "></span>
             </a>
             <ul class="dropdown-menu dropdown-menu--xs-full">
-              <li><a href="/account"><span class="fa fa-user"></span>Account</a></li>
-              <li><a href="/pages/wishlist"><span class="fa fa-heart"></span>Wishlist</a></li>
-              <li><a href="/checkout"><span class="fa fa-check"></span>Checkout</a></li>
-              <li><a href="/account/login"><span class="fa fa-lock"></span>Sign In</a></li>
-              <li><a href="/account/register"><span class="fa fa-plus"></span>Register</a></li>
+              <li><a href="/account"><span class="fa fa-user"></span>Mi cuenta</a></li>
+              <!--<li><a href="/pages/wishlist"><span class="fa fa-heart"></span>Wishlist</a></li>-->
+              <!--<li><a href="/checkout"><span class="fa fa-check"></span>Checkout</a></li>-->
+              <li><a href="/account/login"><span class="fa fa-lock"></span>Iniciar Sesión</a></li>
+              <li><a href="/account/register"><span class="fa fa-plus"></span>Registrar</a></li>
               <li class="dropdown-menu__close"><a href="#"><span class="fa fa-close"></span>close</a></li>
             </ul>
           </div>
@@ -528,11 +528,11 @@
         <!-- account menu start -->
         <div class="account-row-list pull-right mobile-menu-off">
           <ul>
-            <li><a href="/account"><span class="fa fa-user"></span>Account</a></li>
-            <li><a href="/pages/wishlist"><span class="fa fa-heart"></span>Wishlist</a></li>
-            <li><a href="/checkout"><span class="fa fa-check"></span>Checkout</a></li>
-            <li><a href="/account/login"><span class="fa fa-lock"></span>Sign In</a></li>
-            <li><a href="/account/register"><span class="fa fa-plus"></span>Register</a></li>
+            <li><a href="/account"><span class="fa fa-user"></span>Mi cuenta</a></li>
+            <!--<li><a href="/pages/wishlist"><span class="fa fa-heart"></span>Wishlist</a></li>-->
+            <!--<li><a href="/checkout"><span class="fa fa-check"></span>Checkout</a></li>-->
+            <li><a href="/account/login"><span class="fa fa-lock"></span>Iniciar Sesión</a></li>
+            <li><a href="/account/register"><span class="fa fa-plus"></span>Registrar</a></li>
           </ul>
         </div>
         <!-- /account menu end -->
