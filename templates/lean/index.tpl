@@ -623,86 +623,40 @@
   {{body}}
 </div>
 <footer class="layout-4">
+  <br>
   <div class="divider divider--lg visible-xs"></div>
   <!-- footer-data -->
   <div class="container inset-bottom-60 inset-bottom-15">
-    <div class="row"><div class="col-sm-6 col-md-3">
-  <!--  -->
-  <div class="mobile-collapse">
-    <h4 class="text-left text-uppercase  title-under  mobile-collapse__title">Shipping AND Delivery</h4>
-    <div class="v-links-list mobile-collapse__content">
-      <p>
-        We're dedicated to delivering your purchase as quickly and affordably as possible. We offer a range of delivery and pickup options, so you can choose the shipping method that best meets your needs.
-      </p>
-    </div>
-  </div>
-  <!-- / -->
-</div>
+    <div class="row">
 <div class="col-sm-6 col-md-3">
   <!--  -->
-  <div class="mobile-collapse">
-    <h4 class="text-left text-uppercase  title-under  mobile-collapse__title">Payment Methods</h4>
-    <div class="v-links-list mobile-collapse__content">
-      <p>
-        Every country and shopper has their prefered method to pay online. Offering your buyers safe and convenient payment choices can help your sale go smoothly, earn you positive Feedback, and bring them back for more.
-      </p>
-    </div>
-  </div>
+  
   <!-- / -->
 </div>
 <div class="divider divider--lg visible-sm"></div>
-<div class="col-sm-6 col-md-3">
-  <!-- -->
-  <div class="mobile-collapse">
-    <h4 class="text-left text-uppercase  title-under  mobile-collapse__title text-uppercase">Contact</h4>
-    <div class=" mobile-collapse__content">             
-      <!-- address -->
-      <address class="box-address">
-        <span class="icon icon-home"></span> 7563 St. Vincent Place, Glasgow <br>
-        <span class="icon icon-call"></span> <b>+777 2345 7885 </b><br>
-        <span class="icon icon-access_time"></span> 7 Days a week from  10:00 am to 6:00 pm<br>
-        <span class="icon icon-markunread"></span> <a class="color link-underline" href="mailto:info@mydomain.com">info@mydomain.com</a>
-      </address>
-      <!-- /address -->                           
-    </div>
-  </div>
-  <!-- / -->
-</div>
-<div class="col-sm-6 col-md-3">
-  <!--  -->
-  <div class="mobile-collapse">
-    <h4 class="text-left text-uppercase  title-under  mobile-collapse__title">Facebook like box</h4>
-    <div class="v-links-list mobile-collapse__content">
-      <!--======= facebook =======-->
-      
-        <div class="display-inline-block"><iframe src="//facebook.com/plugins/likebox.php?id=134612429900944&amp;width=270px&amp;connections=9&amp;stream=false&amp;header=false&amp;height=236" scrolling="no" style="border:none; overflow:hidden; width:270px; height:236px;" allowtransparency="true" frameborder="0"></iframe></div>
-      
-      <!--======= /facebook =======-->
-    </div>
-  </div>
-  <!-- / -->
-</div></div><hr class="hidden-xs">
+
+</div><hr class="hidden-xs">
 
     <div class="row">
       
-      <div class="col-sm-4 col-md-4  col-lg-3"><div class="mobile-collapse">
-  <h4 class="text-left  title-under  mobile-collapse__title">INFORMATION</h4>
+      <div class="col-sm-4 col-md-4  col-lg-4"><div class="mobile-collapse">
+  <h4 class="text-left  title-under  mobile-collapse__title">INFORMACIÓN</h4>
   <div class="v-links-list mobile-collapse__content">
     <ul>
       
-      <li><a href="/pages/about">About Us</a></li>
+      <li><a href="/pages/about">Acerca de Nosotros</a></li>
       
-      <li><a href="/pages/support-24">Customer Service</a></li>
+      <li><a href="/pages/support-24">Nuestras Soluciones</a></li>
       
-      <li><a href="/pages/undefined">Privacy Policy</a></li>
+      <li><a href="/pages/undefined">Mobiliario Lean</a></li>
       
-      <li><a href="/pages/about">Site Map</a></li>
+      <li><a href="/pages/about">Controles Visuales</a></li>
       
-      <li><a href="/pages/typography">Search Terms</a></li>
+      <li><a href="/pages/typography">Materiales para Entrenamiento Lean</a></li>
       
-      <li><a href="/pages/warranty-and-services">Advanced Search</a></li>
+      <li><a href="/pages/warranty-and-services">Blog</a></li>
       
-      <li><a href="/pages/delivery-page">Orders and Returns</a></li>
+      <li><a href="/pages/delivery-page">Políticas de Privacidad</a></li>
       
       <li><a href="/pages/contact">Contact Us</a></li>
       
@@ -710,25 +664,9 @@
   </div>
 </div>
 </div> 
-<div class="col-sm-4 col-md-4  col-lg-3"><div class="mobile-collapse">
-  <h4 class="text-left  title-under  mobile-collapse__title">WHY BUY FROM US</h4>
-  <div class="v-links-list mobile-collapse__content">
-    <ul>
-      <li><a href="/pages/warranty-and-services">Shipping &amp; Returns</a></li>
-      
-      <li><a href="/pages/typography">Secure Shopping</a></li>
-      
-      <li><a href="/pages/about">International Shipping</a></li>
-      
-      <li><a href="/pages/delivery-page">Affiliates</a></li>
-      
-      <li><a href="/pages/support-24">Group Sales</a></li>
-    </ul>
-  </div>
-</div>
-</div>
-<div class="col-sm-4 col-md-4  col-lg-3"><div class="mobile-collapse">
-  <h4 class="text-left  title-under  mobile-collapse__title">MY ACCOUNT</h4>
+
+<div class="col-sm-4 col-md-4  col-lg-4"><div class="mobile-collapse">
+  <h4 class="text-left  title-under  mobile-collapse__title">MI CUENTA</h4>
   <div class="v-links-list mobile-collapse__content">
     <ul>
       
@@ -750,7 +688,7 @@
       
       
       <div class="divider divider--lg visible-sm visible-md"></div>
-      <div class="col-sm-12 col-md-12 col-lg-3">
+      <div class="col-sm-12 col-md-12 col-lg-4">
         <div class="subscribe-box">
           <div class="mobile-collapse">
             
