@@ -16134,6 +16134,7 @@ aside .recent-post-box {
   width: 100%;
   /* fix chrome image width bug */
   vertical-align: top;
+  height: 28.1rem
 }
 .bannerl2 .figure img {
   display: inline-block;
@@ -16696,6 +16697,7 @@ aside .recent-post-box {
 }
 .box-baners .banner .figcaption {
   color: #fff;
+  background-color: rgba(0,0,0,.7);
   /* indent */
   /* /indent */
   /* font-bold */
