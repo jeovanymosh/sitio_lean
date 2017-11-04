@@ -268,7 +268,7 @@ body {
   font-size: 16px;
   line-height: 1.6875;
   color: #999999;
-  background-color: #282828;
+  background-color: #EBEBEB;
 }
 input,
 button,
@@ -5593,7 +5593,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #ffffff;
+  color: #5D5D5D;
   margin-top: 0;
   letter-spacing: 1px;
 }
@@ -10727,7 +10727,7 @@ footer.layout-7 .footer-copyright .row {
   margin-top: 1em;
 }
 .product__inside__name h2 a {
-  color: #ff4c29;
+  color: #2FB4F5;
 }
 .product__inside__name h2 a:hover {
   color: #ffffff;
@@ -22547,7 +22547,7 @@ h2.title-default {
   display: block;
   height: 5px;
   width: 68px;
-  background: #ff4c29;
+  background: #2FB4F5;
   bottom: -1em;
 }
 .title-under.text-left:after {
@@ -22871,7 +22871,7 @@ button.pull-right,
   font-size: 0.875em;
   line-height: 1.486em;
   height: 40px;
-  background-color: #ff4c29;
+  background-color: #2FB4F5;
   color: #ffffff;
   border-radius: 0;
   vertical-align: top;
@@ -27572,7 +27572,7 @@ a.promo-design2:hover .btn.btn-underline:after{
   bottom: 10px;
 }
 #fade-quote-carousel.carousel .carousel-indicators > li {
-  background-color: #e84a64;
+  background-color: #2FB4F5;
   border: none;
 }
 #fade-quote-carousel blockquote {
