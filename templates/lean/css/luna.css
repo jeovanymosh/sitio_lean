@@ -10190,7 +10190,7 @@ footer .box-address .icon {
   padding-bottom: 0.4em;
 }
 .v-links-list a {
-  color: #ff4c29;
+  color: #2FB4F5;
   -webkit-transition:  all 200ms linear 0s;
   -moz-transition:  all 200ms linear 0s;
   -ms-transition:  all 200ms linear 0s;
@@ -24892,7 +24892,7 @@ body.modal-open {
   background: #040404 !important;
 }
 footer {
-  background: #040404;
+  background: #202020;
 }
 input {
   background-color: #040404;
@@ -27423,7 +27423,7 @@ a.promo-design2:hover .btn.btn-underline:after{
 }
 .fade-carousel .carousel-indicators > li {
     margin: 0 2px;
-    background-color: #f39c12;
+    background-color: #2FB4F5;
     border-color: #f39c12;
     opacity: .7;
 }
