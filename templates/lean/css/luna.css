@@ -3857,13 +3857,13 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: #fff;
+  color: #2FB4F5;
   background-color: transparent;
 }
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
-  color: #fff;
+  color: #2FB4F5;
   
 }
 .navbar-inverse .navbar-nav > .disabled > a,
@@ -8316,6 +8316,7 @@ body.loaded #loader-wrapper {
   #header .navbar .dropdown-menu {
     padding: 20px;
     margin-top: -13px !important;
+    margin-left: 381px;
   }
   #header .navbar .dropdown-menu.megamenu {
     margin-top: -15px !important;
@@ -8904,7 +8905,7 @@ header .search-dropdown {
   }
 }
 #header.header-layout-03 .account-row-list ul li a {
-  color: #ff4c29;
+  color: #2FB4F5;
   text-decoration: none;
   -webkit-transition:  all 0.3s 0s ease;
   -moz-transition:  all 0.3s 0s ease;
@@ -8913,7 +8914,7 @@ header .search-dropdown {
   transition:  all 0.3s 0s ease;
 }
 #header.header-layout-03 .account-row-list ul li a:hover {
-  color: #ffffff;
+  color: #5D5D5D;
 }
 #header.header-layout-03 .account-row-list ul li a .icon {
   font-size: 17px;
@@ -8966,7 +8967,7 @@ header .search-dropdown {
     -o-transform: rotate(-90deg);
   }
   #header.header-layout-03 .row-functional-link .link-inline .dropdown > a .name-text {
-    color: #ffffff;
+    color: #5D5D5D;
     font-size: 18px;
     display: inline-block;
     padding-top: 4px;
@@ -9018,7 +9019,7 @@ header .search-dropdown {
   line-height: 30px;
 }
 #header.header-layout-03 .h-address .fa {
-  color: #ff4c29;
+  color: #2FB4F5;
   font-size: 23px;
   position: relative;
   top: 4px;
@@ -15719,7 +15720,7 @@ aside .recent-post-box {
 }
 .cart .dropdown > a .fa {
   font-size: 2.3125em !important;
-  color: #ff4c29 !important;
+  color: #2FB4F5 !important;
   position: relative;
 }
 .cart .dropdown-menu {
@@ -24897,7 +24898,7 @@ input {
   background-color: #040404;
 }
 #header {
-  background: #212121;
+  background: #EBEBEB;
 }
 #header input{
   background: none;
@@ -26708,7 +26709,7 @@ a.promo-design2:hover .btn.btn-underline:after{
   transition: all 0.2s linear;
 }
 .banner .figure:hover{
-  background: #ff4c29;
+  background: #2FB4F5;
 }
 /* revolution sliders texts */
 .slide_1_lingerie_text01{
