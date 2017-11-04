@@ -545,7 +545,7 @@
       <!-- col-left -->
       <div class="col-xs-12 col-md-3 col-lg-3 col-xl-3 col-sm-3">
         <!-- logo start -->
-        <a href="/"><img class="logo img-responsive" src="//cdn.shopify.com/s/files/1/1266/3353/t/8/assets/logo.png?12291565935444108077" alt="logo"></a>
+        <a href="/"><img class="logo img-responsive" src="fileimages/Lean Outlet.png" alt="logo"></a> 
         <!-- logo end -->
       </div>
       <!-- /col-left -->
@@ -584,7 +584,7 @@
   <div class="">
     <div class="container">
       <div class="row">
-        <div class="col-sm-10 col-md-10 col-lg-10 col-xl-11">
+        <div class="col-sm-10 col-md-10 col-lg-11 col-xl-11">
           <nav class="navbar navbar-inverse">
             <div class="container-fluid">
               <div class="navbar-header">
